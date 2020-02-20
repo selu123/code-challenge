@@ -1,0 +1,35 @@
+{
+  "configs": [
+    "reusable-java-function-call-from-dw-3.xml",
+    "join-inputs-4.xml",
+    "trigger-first-flow-in-dw-2.xml",
+    "produce-json-array-frm-url-param-5.xml",
+    "create-profile-1.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:sys-api-demo:1.0.1-SNAPSHOT",
+  "minMuleVersion": "4.2.2",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [
+        "com.util"
+      ],
+      "exportedResources": [
+        "api/create-profile-1.raml",
+        "create-profile-1.xml",
+        "join-inputs-4.xml",
+        "log4j2.xml",
+        "produce-json-array-frm-url-param-5.xml",
+        "reusable-java-function-call-from-dw-3.xml",
+        "trigger-first-flow-in-dw-2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
